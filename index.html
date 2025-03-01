@@ -112,8 +112,8 @@
                 <img src="assets/calender.png" alt="" />
               </div>
               <div>
-                <p class="text-xl">Wed ,</p>
-                <p class="text-xl font-bold">Jul 28 2025</p>
+                <p id="week" class="text-xl">Wed ,</p>
+                <p id="date" class="text-xl font-bold">Jul 28 2025</p>
               </div>
             </div>
           </div>
@@ -125,7 +125,7 @@
             class="grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 my-4"
           >
             <!-- card 1 -->
-            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl">
+            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl hl">
               <div>
                 <button class="btn bg-white border-none">ShopEase</button>
               </div>
@@ -151,7 +151,7 @@
             </div>
 
             <!-- card 2 -->
-            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl">
+            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl hl">
               <div>
                 <button class="btn bg-white border-none">ShopEase</button>
               </div>
@@ -177,7 +177,7 @@
             </div>
 
             <!-- card 3 -->
-            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl">
+            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl hl">
               <div>
                 <button class="btn bg-white border-none">ShopEase</button>
               </div>
@@ -203,7 +203,7 @@
             </div>
 
             <!-- card 4 -->
-            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl">
+            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl hl">
               <div>
                 <button class="btn bg-white border-none">ShopEase</button>
               </div>
@@ -229,7 +229,7 @@
             </div>
 
             <!-- card 5 -->
-            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl">
+            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl hl">
               <div>
                 <button class="btn bg-white border-none">ShopEase</button>
               </div>
@@ -255,12 +255,12 @@
             </div>
 
             <!-- card 6 -->
-            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl">
+            <div class="bg-bg_cl flex flex-col gap-4 p-6 rounded-2xl hl">
               <div>
                 <button class="btn bg-white border-none">ShopEase</button>
               </div>
               <h3 class="text-2xl font-medium">Fix Mobile Button Issue</h3>
-              <p class="text-text3 bg-white p-4 rounded-lg">
+              <p class="text-text3 bg-white p-4 rounded-lg p_btn">
                 Debug using Chrome DevTools, check for overlapping elements, and
                 ensure onClick works properly and ensure onClick works properly
               </p>
@@ -288,7 +288,10 @@
               <div class="text-xl font-medium">Activity Log</div>
             </div>
             <div>
-              <button class="btn font-medium bg-btn_color text-white text-base">
+              <button
+                id="history_btn"
+                class="btn font-medium bg-btn_color text-white text-base"
+              >
                 Clear History
               </button>
             </div>
@@ -296,19 +299,14 @@
           <div
             class="border-b border-dotted border-text3 w-full h-0 mb-4"
           ></div>
-          <div>
-            <p class="w-8/10 mx-auto bg-bg_cl p-2 text-text3 rounded-lg my-2">
-              You have Complete The Task Add Dark Mode at 12:48:15 PM
-            </p>
-            <p class="w-8/10 mx-auto bg-bg_cl p-2 text-text3 rounded-lg my-4">
-              You have Complete The Task Add Dark Mode at 12:48:15 PM
-            </p>
-          </div>
+          <div id="history"></div>
         </div>
       </div>
     </main>
 
     <script src="java/btn.js"></script>
     <script src="java/helpFuc.js"></script>
+    <script src="java/history.js"></script>
+    <script src="java/banner.js"></script>
   </body>
 </html>

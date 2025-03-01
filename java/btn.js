@@ -19,6 +19,18 @@ document.addEventListener("DOMContentLoaded", function () {
       let score = textToStr("score");
       score += 1;
       settingInnerText("score", score);
+
+      // Adding History
+      const requiredDiv = this.closest(".hl");
+      const requiredPValue = requiredDiv.querySelector("h3").innerText;
+
+      const i = document.getElementById("history");
+      const divTag = document.createElement("div");
+      const timeDate = showTime();
+      divTag.innerHTML = `<p class="w-8/10 mx-auto bg-bg_cl p-2 text-text3 rounded-lg my-4">
+                You have completed ${requiredPValue} at ${timeDate[2]}
+              </p>`;
+      i.appendChild(divTag);
     });
   }
 });
