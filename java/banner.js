@@ -27,3 +27,9 @@ document
   .addEventListener("click", function () {
     document.body.style.backgroundColor = getRandomColor();
   });
+
+// Move to another page
+
+document.getElementById("discover_btn").addEventListener("click", function () {
+  window.location.href = "main.html";
+});
