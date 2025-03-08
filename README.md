@@ -45,6 +45,6 @@ This is a simple, interactive website built for practicing JavaScript skills. Th
    git clone https://github.com/Erfan-Khan-Dhrubo/project-5-Web-development.git
    ```
 
-## A visual representation of my banking application.
+## A visual representation of my page.
 
  <img src="./web pic/pic1.png"/>
