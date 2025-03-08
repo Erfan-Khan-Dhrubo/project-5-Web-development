@@ -1,22 +1,41 @@
-## **📅 Deadline For 60 marks**: 2nd March , 2025 ( 11:59 pm ⏱️)
+# JavaScript Practice Website 🌟
 
-## **📅 Deadline For 50 marks**: 3rd March , 2025 ( 11:59 pm ⏱️)
-
-**📅 Deadline For 30 marks**: Any time after 3rd March , 2025.
----
-🏆 Requirements
----
-Follow the given  video strictly to meet all the requirements and Challenges.
+This is a simple, interactive website built for practicing JavaScript skills. The project is developed using **HTML**, **Tailwind CSS**, and **JavaScript**. It includes dynamic functionality to improve user interactivity and explore key programming concepts.
 
 ---
-Required Question to Answer at Blog.html
+
+## Features ✨
+
+- **Task Completion**
+
+  - Clicking the "Completed" button decreases the number of assigned tasks.
+  - The total score displayed at the top-right corner increases based on completed tasks.
+
+- **Background Color Change**
+
+  - The "Rainbow" button changes the background color to a random color every time it's clicked.
+
+- **History Tracking**
+
+  - Completed tasks are recorded in the history section.
+  - The "Clear History" button removes all entries from the history.
+
+- **Navigation**
+  - Users can navigate to another page by clicking the "Discover Something New" button.
+
 ---
-- Question-1: What are the different ways to select an element in the DOM?
 
-- Question-2: What is the difference between innerHTML, innerText, and textContent ?
+## Technologies Used 💻
 
-- Question-3: What is event delegation in the DOM?
+- **HTML**: For creating the website structure.
+- **Tailwind CSS**: For designing and styling the user interface.
+- **JavaScript**: For adding interactivity and dynamic behavior.
 
-- Question-4: What is event bubbling in the DOM?
+---
 
-- Question-5: How do you create, add, and remove elements using JavaScript?
+## How to Use 🚀
+
+1. Clone the repository to your local machine using:
+   ```bash
+   git clone <repository-url>
+   ```
