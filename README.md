@@ -1,6 +1,6 @@
-# JavaScript Practice Website 🌟
+# DevBoard 🌟
 
-This is a simple, interactive website built for practicing JavaScript skills. The project is developed using **HTML**, **Tailwind CSS**, and **JavaScript**. It includes dynamic functionality to improve user interactivity and explore key programming concepts.
+This is a simple, interactive website built for practicing JavaScript skills. The project is developed using **HTML**, **Tailwind CSS**, and **JavaScript**. It showcases dynamic functionality to enhance user interactivity while exploring key programming concepts.
 
 ---
 
@@ -10,6 +10,7 @@ This is a simple, interactive website built for practicing JavaScript skills. Th
 
   - Clicking the "Completed" button decreases the number of assigned tasks.
   - The total score displayed at the top-right corner increases based on completed tasks.
+  - _Real-time tracking:_ The time when a task is completed is displayed in the history section.
 
 - **Background Color Change**
 
@@ -17,8 +18,12 @@ This is a simple, interactive website built for practicing JavaScript skills. Th
 
 - **History Tracking**
 
-  - Completed tasks are recorded in the history section.
+  - Completed tasks are recorded in the history section with the exact time of completion.
   - The "Clear History" button removes all entries from the history.
+
+- **Real-Time Clock**
+
+  - The website displays the current time, updating in real-time.
 
 - **Navigation**
   - Users can navigate to another page by clicking the "Discover Something New" button.
@@ -37,5 +42,9 @@ This is a simple, interactive website built for practicing JavaScript skills. Th
 
 1. Clone the repository to your local machine using:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Erfan-Khan-Dhrubo/project-5-Web-development.git
    ```
+
+## A visual representation of my banking application.
+
+ <img src="./web pic/pic1.png"/>
